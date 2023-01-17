@@ -13,5 +13,17 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
+    <dependencies>
+
+
+        <!-- https://mvnrepository.com/artifact/com.twilio.sdk/twilio-java-sdk -->
+        <dependency>
+            <groupId>com.twilio.sdk</groupId>
+            <artifactId>twilio-java-sdk</artifactId>
+            <version>6.3.0</version>
+        </dependency>
+
+    </dependencies>
+
 </project>
